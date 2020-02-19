@@ -266,48 +266,48 @@ h6 {
 }
 
 .project1 {
-    background: url(../images/landing.JPG) no-repeat 50% 50%;
+    background: url(../images/p1.JPG) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project1::after {
-    content: "timeless flow.";
+    content: "elegance.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #000;
     display: block;
     top: 8%;
-    left: -60%;
+    left: -40%;
     right: 0;
     bottom: 0;
 }
 
 .project2 {
-    background: url(../images/landing.JPG) no-repeat 50% 50%;
+    background: url(../images/p2.JPG) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project2::after {
-    content: "foretime.";
+    content: "sweet dreams.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #000;
     display: block;
     top: 80%;
-    left: 90%;
+    left: 100%;
     right: 0;
     bottom: 0;
 }
 
 .project3 {
-    background: url(../images/landing.JPG) no-repeat 50% 50%;
+    background: url(../images/p3.JPG) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project3::after {
-    content: "never again.";
+    content: "nightmarish.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -320,19 +320,37 @@ h6 {
 }
 
 .project4 {
-    background: url(../images/landing.JPG) no-repeat 50% 50%;
+    background: url(../images/p5.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project4::after {
-    content: "departure.";
+    content: "rouge.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #000;
     display: block;
     top: 10%;
-    left: 90%;
+    left: 99%;
+    right: 0;
+    bottom: 0;
+}
+
+.project5 {
+    background: url(../images/p6.JPG) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project5::after {
+    content: "crisis.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #000;
+    display: block;
+    top: 80%;
+    left: -40%;
     right: 0;
     bottom: 0;
 }
@@ -347,7 +365,7 @@ h6 {
           display: none;
     }
 
-    .project1::after, .project2::after, .project3::after, .project4::after {
+    .project1::after, .project2::after, .project3::after, .project4::after, .project5::after {
           display: none;
     }
 }
@@ -450,6 +468,10 @@ h6 {
     }
 }
 
+.fa {
+    color: #606060;
+}
+
 /*--------------- work page --------------- */
 
 .hero-content {
@@ -482,7 +504,12 @@ h6 {
 }
 
 .image {
-    background: url(../images/landing.JPG) no-repeat 50% 70%;
+    background: url(../images/me2.jpg) no-repeat 50% 50%;
+}
+
+.about-text {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
 }
 
 /*--------------- contact form --------------- */
