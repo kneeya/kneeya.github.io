@@ -5,8 +5,8 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: "Roboto Mono" !important;
-    background: #0f0f0f !important;
-    color: #fff !important;
+    background: #f9f4f4 !important;
+    color: #000 !important;
 }
 
 .whitespace {
@@ -21,55 +21,22 @@ html, body {
 }
 
 /*--------------- typewriter effect --------------- */
-.line {
-    width: 24em;
-    top: 50%;
-    margin: auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
+
+.typewrite {
+    color: #000;
+    cursor: default;
 }
 
-.anim-typewriter {
-    animation: typewriter 4s steps(40) 1s 1 normal both,
-    blinkTextCussor 500ms steps(40) infinite normal;
-}
-
-@keyframes typewriter {
-    from {
-          width: 0;
-    }
-    to {
-          width: 18em;
-    }
-}
-
-@media(max-width: 768px) {
-    @keyframes typewriter {
-          from {
-                width: 0;
-          }
-          to {
-                width: 17em;
-          }
-    }
-}
-
-@keyframes blinkTextCussor {
-    from {
-          border-right-color: rgba(255, 255, 255, 0.75);
-    }
-    to {
-          border-right-color: transparent;
-    }
+.typewrite:hover {
+    color: #000;
+    cursor: default;
+    text-decoration: none; 
 }
 
 /*--------------- navigation --------------- */
 nav {
     width: 100%;
-    background: #0f0f0f;
+    background: #e7d3d3 ;
     height: 80px;
     position: fixed;
     z-index: 1;
@@ -84,7 +51,7 @@ nav #brand {
 }
 
 nav #brand a {
-    color: #fff;
+    color: #000;
     transition: all 0.3s ease-out;
 }
 
@@ -113,7 +80,7 @@ nav #menu li span {
 }
 
 nav #menu li a {
-    color: #fff;
+    color: #000;
 }
 
 nav #menu li a:hover {
@@ -149,7 +116,7 @@ nav #menu li a:hover {
     z-index: 1;
     top: 0px;
     position: fixed;
-    background: #0f0f0f;
+    background: #fff;
     width: 100%;
     height: 100%;
     visibility: hidden;
@@ -183,7 +150,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-    color: #fff;
+    color: #000;
 }
 
 #resize #menu li a:hover {
@@ -261,8 +228,8 @@ nav #menu li a:hover {
     text-shadow: 0;
     width: 13px;
     height: 13px;
-    border-bottom: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
     -webkit-transform: translate(-50%, 0) rotate(45deg);
     animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
@@ -288,7 +255,7 @@ h6 {
 
 .vertical {
     margin-top: 40px;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #000;
     height: 80px;
     position: absolute;
     left: 50%;
@@ -308,7 +275,7 @@ h6 {
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
-    color: #fff;
+    color: #000;
     display: block;
     top: 8%;
     left: -60%;
@@ -326,7 +293,7 @@ h6 {
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
-    color: #fff;
+    color: #000;
     display: block;
     top: 80%;
     left: 90%;
@@ -344,7 +311,7 @@ h6 {
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
-    color: #fff;
+    color: #000;
     display: block;
     top: 80%;
     left: -50%;
@@ -362,7 +329,7 @@ h6 {
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
-    color: #fff;
+    color: #000;
     display: block;
     top: 10%;
     left: 90%;
@@ -412,7 +379,7 @@ h6 {
 
 .info li {
     font-weight: lighter;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     padding-left: 20px;
 }
@@ -551,7 +518,7 @@ h6 {
     border: none;
     resize: vertical;
     background: transparent;
-    color: #fff;
+    color: #000;
     font-weight: bolder;
 }
 
