@@ -20,18 +20,61 @@ html, body {
     }
 }
 
-/*--------------- typewriter effect --------------- */
+/*--------------- landing page --------------- */
 
-.typewrite {
-    color: #000;
-    cursor: default;
+.column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.me img{
+   height: 400px;
+   width: 350px;
+   margin-left: 9rem;
+   -webkit-filter: saturate(50%) opacity(0.95); 
+   filter: saturate(50%) opacity(0.95);
 }
 
-.typewrite:hover {
-    color: #000;
-    cursor: default;
-    text-decoration: none; 
+.kneeya {
+    padding-top: 7rem;
 }
+
+.desc {
+    color: #9d9fa3;
+}
+
+.developer {
+    color: #947a66;
+}
+
+/* Scrolling typewriter effect */
+.typewriter {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    border-right: .1em solid #947a66;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 1.2s steps(10, end), blink-caret 850ms steps(40) infinite normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  
+  @keyframes blink-caret {
+    from {
+      border-right-color: #947a66; }
+    to {
+      border-color: transparent; } }
+  
+  /* /Scrolling typewriter effect */
 
 /*--------------- navigation --------------- */
 nav {
@@ -219,7 +262,7 @@ nav #menu li a:hover {
 .scroll-down {
     position: absolute;
     left: 50%;
-    bottom: 100px;
+    bottom: 50px;
     display: block;
     text-align: center;
     font-size: 20px;
@@ -302,7 +345,7 @@ h6 {
 }
 
 .project3 {
-    background: url(../images/p3.JPG) no-repeat 50% 50%;
+    background: url(../images/p3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -597,4 +640,11 @@ textarea:focus {
 
 .next p {
     text-align: right;
+}
+
+/*--------------- art page --------------- */
+
+.dreams {
+    margin: 0 30rem 0 30rem;
+    color: #999;
 }
