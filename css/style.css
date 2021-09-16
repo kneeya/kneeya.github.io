@@ -283,7 +283,6 @@ nav #menu li a:hover {
 .scroll-down {
     position: absolute;
     left: 50%;
-    bottom: 50px;
     display: block;
     text-align: center;
     font-size: 20px;
